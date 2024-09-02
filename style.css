@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+	padding: 12px 12px 20px;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	width: 300px;
+	background-color: hsl(0, 0%, 100%);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 6px 10px 24px 0px #00000024;
+}
+.card > div {
+	text-align: center;
+}
+.card img {
+	border-radius: 12px;
+	width: 100%;
+}
+.card h2 {
+	color: hsl(218, 44%, 22%);
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.card p {
+	color: hsl(216, 15%, 48%);
+	font-size: 15px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
